@@ -1,9 +1,4 @@
-import {
-  Character,
-  Clients,
-  defaultCharacter,
-  ModelProviderName,
-} from "@elizaos/core";
+import { Character, Clients, defaultCharacter, ModelProviderName } from "@elizaos/core";
 import { agentKitPlugin } from "@elizaos/plugin-agentkit";
 
 export const character: Character = {
@@ -11,7 +6,7 @@ export const character: Character = {
   name: "Eliza",
   plugins: [agentKitPlugin],
   // clients: [],
-  // modelProvider: ModelProviderName.OPENAI,
+  modelProvider: ModelProviderName.OPENAI,
   // settings: {
   //     secrets: {},
   //     voice: {
