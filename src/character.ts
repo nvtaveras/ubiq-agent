@@ -6,7 +6,7 @@ export const character: Character = {
   name: "Eliza",
   plugins: [agentKitPlugin],
   // clients: [],
-  modelProvider: ModelProviderName.OPENAI,
+  modelProvider: ModelProviderName.GOOGLE,
   // settings: {
   //     secrets: {},
   //     voice: {
